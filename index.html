@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+</head>
+<body>
+  <header>
+     <h1>Order Form</h1>
+     <h2>please select the desired product and quantity and proceed to cart when ready to purchase</h2>
+  </header>
+  <main>
+      <div>
+        <form id="product-form">
+          <fieldset>
+            <legend>Products List</legend>
+            <select name="productToPurchase" id="product-dropdown">
+            </select>
+            <label for="quantityInCart">Quantity</label>
+            <input type="number" name="quantityInCart" id="product-quantity">
+            <button>ADD TO CART</button>
+          </fieldset>
+        </form>
+      </div>
+      <section>
+        <a href="cart.html"><button>Go to Cart</button></a>
+      </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
